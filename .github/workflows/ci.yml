@@ -10,6 +10,7 @@ on:
     - main
     - v*-branch
   workflow_call:
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.ref }}
